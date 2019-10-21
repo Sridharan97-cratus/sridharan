@@ -1,0 +1,18 @@
+public class print10to1withoutloop {
+
+	
+		void m(int n) {
+			System.out.println(n);
+			if (n >= 1) {
+				m(n- 1);
+			}
+			//System.out.println(n);
+			
+		}
+		public static void main(String[] args) {
+			print10to1withoutloop obj = new print10to1withoutloop();
+			obj.m(10);
+	}
+//if print (n) is placed here it will give an reverse output
+				
+}
