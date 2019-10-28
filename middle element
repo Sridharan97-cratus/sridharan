@@ -1,0 +1,13 @@
+public class middle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a[] = {1, 10, 23, 41, 12,  10, 2, 3, 4 };
+		for (int i = 0; i < 1; i++) {
+	
+				System.out.println(a[a.length/2]);
+				//System.out.println(a[a.length/2-1]);
+		//the above print line must be inc when we meet EVEN NUM 		
+		}
+	}
+	}
