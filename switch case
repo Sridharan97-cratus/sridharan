@@ -1,0 +1,35 @@
+public class marksheetSWITCH {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c ='C';
+		switch (c) {
+		case 'A':
+			//System.out.println("SURESH");
+			System.out.println("A GRADE :" + 100  +"-"+ 90);
+			break;
+		case 'B':
+			//System.out.println("BASKER");
+			System.out.println("B GRADE :" + 90  +"-"+ 80);
+			break;
+		case 'C':
+			//System.out.println("DHONI");
+			System.out.println("C GRADE :" + 80  +"-"+ 70);
+			break;
+		case'D':
+			//System.out.println("GOPI");
+			System.out.println("D GRADE :" +70  +"-"+ 60);
+			break;
+		case 'E':
+			//System.out.println("KISHOR");
+			System.out.println("E GRADE :" + 60  +"-"+ 50);
+			break;
+		case'F':
+			//System.out.println("BALU");
+			System.out.println("F GRADE :" +50  +"-"+ 40);
+			break;
+		default:
+			System.out.println("POOR PERFORMANCE ");
+		}
+	}
+	}
